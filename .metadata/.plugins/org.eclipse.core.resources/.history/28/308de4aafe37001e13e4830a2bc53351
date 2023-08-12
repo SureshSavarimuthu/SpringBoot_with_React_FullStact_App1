@@ -1,0 +1,19 @@
+package com.springbootandreact.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.springbootandreact.repository.Student;
+import com.springbootandreact.student.StudentRepository;
+
+public class StudentServiceImpl implements StudentService{
+
+	@Autowired
+	private StudentRepository studentRepository;
+	
+	@Override
+	public Student saveStudent(Student student) {
+		// TODO Auto-generated method stub
+		return studentRepository.save(student);
+	}
+
+}

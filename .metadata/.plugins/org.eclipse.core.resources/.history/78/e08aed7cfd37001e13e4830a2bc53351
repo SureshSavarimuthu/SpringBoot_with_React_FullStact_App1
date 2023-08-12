@@ -1,0 +1,5 @@
+package com.springbootandreact.service;
+
+public class StudentService {
+
+}

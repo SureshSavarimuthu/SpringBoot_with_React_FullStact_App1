@@ -1,0 +1,7 @@
+package com.springbootandreact.service;
+
+public interface StudentService {
+
+	public Student saveStudent(Stu)
+	
+}

@@ -1,0 +1,5 @@
+package com.springbootandreact.repository;
+
+public class Student {
+
+}

@@ -1,0 +1,5 @@
+package com.springbootandreact.controller;
+
+public class StudentController {
+
+}

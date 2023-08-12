@@ -1,0 +1,9 @@
+package com.springbootandreact.service;
+
+import com.springbootandreact.repository.Student;
+
+public interface StudentService {
+
+	public Student saveStudent(Student student);
+	
+}
